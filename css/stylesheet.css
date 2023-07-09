@@ -205,6 +205,25 @@ a {
   }
 
 /*code for mobile devices smaller than 600px*/
+
+
+footer {
+    text-align: center;
+}
+
+ .gender {
+    display: block;
+    text-align: center;
+    
+}
+
+.beginnerForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:flex-start;
+  }
+
 body { background-color: rgb(250, 247, 247);
 }
 h2, h3 {
@@ -242,6 +261,24 @@ aside {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) 
 
+
+footer {
+    text-align: center;
+}
+
+ .gender {
+    display: block;
+    text-align: center;
+    
+}
+
+.beginnerForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
     body { background-color: rgb(250, 247, 247);
     }
     h2, h3 {
@@ -263,10 +300,38 @@ aside {
 
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-   body { background-color: yellow; }
+@media only screen and (min-width: 992px) 
+    body { background-color: rgb(250, 247, 247);
+    }
+    h2, h3, p {
+        text-align: center;
+    }
+    
+    picture{
+        display: flex;
+        justify-content:center;
+        flex-wrap: wrap;
+        border-radius: 10%;
 } 
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) 
-   body { background-color: orange; }
+.heroItems {
+    border-radius: 10px;
+
+} 
+
+footer {
+    text-align: center;
+}
+
+ .gender {
+    display: block;
+    text-align: center;
+    
+}
+
+.beginnerForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
