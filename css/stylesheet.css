@@ -1,0 +1,204 @@
+html {
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+   margin-left: 10%;
+   margin-right: 10%;
+   margin-top: 1%;
+   margin-bottom: 1%;
+
+}
+
+   
+
+/*editing section types*/
+
+header {
+    text-align: center;
+    background-color: rgb(42, 46, 54);
+    border-radius: 20px;
+   padding-bottom: 20px;
+   border-width: 20px;
+}
+
+aside {
+    background-color: rgb(244, 214, 68);
+    background-size: 100px, 100px;
+    border-radius: 20px;
+    padding-bottom: 1px;
+    padding-top: 0.5px;
+
+    
+   
+}
+
+footer {
+margin-bottom: 40px;
+
+}
+
+footer a {
+    
+     display: inline-block;
+   
+
+}
+
+/*editing section types*/
+
+/*editing the text*/
+h1 {
+    color: whitesmoke;
+    margin-top: 50px;
+    padding-top: 30px;
+}
+
+h2 {
+    color: rgb(46, 45, 45);   
+}
+
+p, ul {
+    color: rgb(115, 115, 115);
+}
+
+h3 {
+    color: rgb(49, 48, 50);
+
+}
+
+p, ul {
+    margin-left: 75px;
+    margin-right: 75px;
+
+} 
+
+h3, h2 {
+    margin-left: 15px;
+}
+
+#intro {
+    color: rgb(171, 151, 125);
+    font-size: large;
+}
+
+#menubuttons {
+    font-size: medium;
+}
+
+
+
+/*editing the text*/
+
+
+hr {
+    height: 2px;
+    border-width:0;
+    background-color: rgb(244, 214, 68);
+
+}
+
+#line1 {
+    width: 60%;
+    color: antiquewhite;
+}
+
+
+
+
+
+/*this is to edit the links and how they interact*/
+a {
+    
+    color: rgb(23, 24, 24);
+    text-decoration: none;
+    text-transform: none;
+  }
+  
+  a:hover {
+    cursor: pointer;
+    color: rgb(244, 214, 68);
+  }
+
+  a:active {
+    background-color: black;
+  }
+  
+  a:visited {
+    background-color: rgb(190, 165, 125);
+  }
+  /*this is to edit the links and how they interact*/
+
+  /*form styling*/
+
+  #footerWords {
+    font-size: large;
+    color: rgb(46, 45, 45) ;
+  }
+
+.next3 {
+    padding-left: 8.5px;
+    padding-right: 5px;
+}
+
+.next4 {
+    padding-left: 5px ;
+    color: rgb(49, 48, 50);
+
+}
+
+  .next2, .next3, .next4 {
+    float:left; 
+    display:inline; 
+    width: fit-content;
+    color: rgb(49, 48, 50);
+    padding-left: 15px;
+
+}
+
+    .gender {
+        font-family: system-ui, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: justify;
+        color: rgb(49, 48, 50);
+        padding-left: 12px;
+        
+}
+
+.email{
+    padding-left: 14px;
+}
+
+.reason {
+    padding-left: 13px;
+    color: rgb(49, 48, 50);
+    font-family: system-ui, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.about {
+    padding-top: 2px;
+    padding-left: 15px;
+}
+
+.button {
+    background-color: rgb(244, 214, 68); /* Green */
+    border: none;
+    border-radius: 10px;
+    color: rgb(46, 45, 45);
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-left: 16px;
+  }
+
+/*form styling*/
+
+/*hero image*/
+.heroItems {
+    background-image: url("https://i.ibb.co/tb0XrMP/azzedine-rouichi-ZS-Xu-DZmxp-M-unsplash-1.jpg");
+    height: 400px;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+  }
