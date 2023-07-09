@@ -201,6 +201,7 @@ a {
     width: 100%;
     background-size: contain;
     background-position: center;
+    background-color: black;
   }
 
 /*code for mobile devices smaller than 600px*/
@@ -214,6 +215,7 @@ picture{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding-bottom: 30px;
 
 }
 
@@ -236,15 +238,29 @@ aside {
     margin-bottom: 50px;
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-   body { background-color: red; }
-} 
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-   body { background-color: green; }
+@media only screen and (min-width: 768px) 
+
+    body { background-color: rgb(250, 247, 247);
+    }
+    h2, h3 {
+        text-align: center;
+    }
+    
+    picture{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        border-radius: 10%;
 } 
+
+.heroItems {
+    border-radius: 10px;
+
+}
+
+
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
